@@ -1,4 +1,59 @@
+
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  #quote-box {
+    padding: 35px;
+    padding-bottom: 45px;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    #author {
+      text-align: end;
+    }
+    #tweet-quote, #tumblr-quote {
+      float: left;
+      padding-left: 5%;
+      text-decoration: none;
+      color: white;
+      border-radius: 3px;
+      border-style: none;
+      padding: 5px;
+      margin: 2px;
+      height: 20px;
+      width: 20px;
+      align-self: center;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+    #new-quote {
+      float: right;
+      color: white;
+      border-radius: 3px;
+      border-style: none;
+      padding: 5px 15px;
+      cursor: pointer;
+      font-size: 15px;
+      margin: 2px;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+    #quote {
+    }
+  }
 }
+
+FontAwesomeIcon {
+  padding: 5px;
+}
+
+
